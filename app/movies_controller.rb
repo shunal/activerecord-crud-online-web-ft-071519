@@ -14,7 +14,11 @@ def can_be_created_with_a_hash_of_attributes
       lead: "Paul Newman",
       in_theaters: false
   }
+<<<<<<< HEAD
   movie = Movie.find_or_create_by(attributes)
+=======
+  movie = 
+>>>>>>> 4432a0b6068719688b7cfad09e5fb4f2344f4494
 end
 
 def can_be_created_in_a_block(args={:title => "Home Alone", :release_date => 1990})
